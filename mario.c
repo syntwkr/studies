@@ -2,8 +2,7 @@
 #include <stdio.h>
 #define SPACES 2
 
-/* Draws "mario" pyramid
- created on 10.09.2019 */
+// Draws a pyramid of a specified height
 
 int main(void)
 {
@@ -23,7 +22,10 @@ int main(void)
         // Inner loop to draw the line of spaces and hashes
         for (position = 0; position <= height + SPACES + line_num; position++)
         {
-            // Quite a complicated condition when to draw the spaces -- first, put the new line -- second and draw the hashes -- last
+            /* - each row is a combination of spaces, hashes and new line characters;
+            - if condition controls spaces: amount of left side spaces in each row equals to .. then we need two more spaces..
+            - if else catches last character and puts a new line, ending the row
+            - else puts chars */
             if ((position >= 0 && position < height - line_num) || (position >= height && position < height + SPACES))
             {
                 putchar(' ');
