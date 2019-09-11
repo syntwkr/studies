@@ -19,3 +19,6 @@ Think Python https://read.amazon.com.au/kp/embed?linkCode=kpd&ref_=k4w_oembed_Lk
 
 
 lfs http://www.linuxfromscratch.org/lfs/
+
+
+https://www.atlassian.com/git/tutorials
