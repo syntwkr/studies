@@ -23,19 +23,17 @@ int main(void)
         for (position = 0; position <= height + SPACES + line_num; position++)
         {
             /* - each row is a combination of spaces, hashes and new line characters;
-            - if condition controls spaces: amount of left side spaces in each row equals to .. then we need two more spaces..
-            - if else catches last character and puts a new line, ending the row
-            - else puts chars */
+               - if condition controls spaces: amount of left side spaces in each row equals to .. then we need two more spaces.. */
             if ((position >= 0 && position < height - line_num) || (position >= height && position < height + SPACES))
             {
                 putchar(' ');
             }
-
+            // - if else catches last character and puts a new line, ending the row
             else if (position == height + SPACES + line_num)
             {
                 putchar('\n');
             }
-
+            // - else puts chars
             else
             {
                 putchar('#');
