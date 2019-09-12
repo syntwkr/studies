@@ -1,5 +1,6 @@
 # studies
 
+submit50 cs50/2018/x/hello ----> check50 cs50/problems/2018/x/hello
 
 C textbook https://www.dipmat.univpm.it/~demeio/public/the_c_programming_language_2.pdf#page=60&zoom=auto,-306,455
 
