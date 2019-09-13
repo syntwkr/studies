@@ -16,7 +16,7 @@ int main(void)
     }
 
     // Outer loop to walk through the rows
-    for (line_num = 1; line_num < height + 1; line_num++)
+    for (line_num = 1; line_num < height; line_num++)
     {
         /* Inner loop to draw the line of spaces and hashes
            amount of spaces in each row equals to the height of the pyramid less number of the current line
@@ -27,7 +27,7 @@ int main(void)
             printf(" ");
         }
 
-        for (position = 0; position < line_num + 1; position++)
+        for (position = 0; position < line_num; position++)
         {
             printf("#");
         }
