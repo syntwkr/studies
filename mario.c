@@ -11,7 +11,7 @@ int main(void)
     height = get_int("Height: ");
 
     // Keeps asking the user to put the height until it's greater than 0 but less than 23
-    while (!(height >= 0 && height <= 23))
+    while (!(height > 0 && height <= 8))
     {
         height = get_int("Height: ");
     }
@@ -22,18 +22,22 @@ int main(void)
         // Inner loop to draw the line of spaces and hashes
         for (position = 0; position <= height + SPACES + line_num; position++)
         {
-            /* - each row is a combination of spaces, hashes and new line characters;
-               - if condition controls spaces: amount of left side spaces in each row equals to .. then we need two more spaces.. */
+            /*
+                - amount of left side spaces in each row equals to the height of the pyramid less number of the current line;
+                - remaining cells are filled up with hashes up to height row length
+                - two more spaces to separate;
+                - right pyramid is essentially row number amount of hashes.
+            */
             if ((position >= 0 && position < height - line_num) || (position >= height && position < height + SPACES))
             {
                 putchar(' ');
             }
-            // - if else catches last character and puts a new line, ending the row
+
             else if (position == height + SPACES + line_num)
             {
                 putchar('\n');
             }
-            // - else puts chars
+
             else
             {
                 putchar('#');
