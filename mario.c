@@ -10,7 +10,7 @@ int main(void)
 
     height = get_int("Height: ");
 
-    // Keeps asking the user to put the height until it's greater than 0 but less than 23
+    // Keeps asking the user to put the height until it's greater than 0 but less than 8
     while (!(height > 0 && height <= 8))
     {
         height = get_int("Height: ");
