@@ -1,0 +1,32 @@
+#include<stdio.h>
+#include<math.h>
+#include<cs50.h>
+
+int main(void)
+{
+    float dollars;
+    int change = 0;
+
+    // Prompt user for a positive amount of change
+    do
+    {
+        dollars = get_float("Change: \n");
+    }
+    while (dollars < 0);
+
+    int pennies = round(dollars * 100);
+
+    change += pennies / 25;
+    pennies %= 25;
+
+    change += pennies / 10;
+    pennies %= 10;
+
+    change += pennies / 5;
+    pennies %= 5;
+
+    change += pennies;
+
+    printf("%i\n", change);
+
+}
