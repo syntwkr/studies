@@ -2,7 +2,7 @@
 
 submit50 cs50/2018/x/hello ----> check50 cs50/problems/2018/x/hello
 
-C textbook https://www.dipmat.univpm.it/~demeio/public/the_c_programming_language_2.pdf#page=60&zoom=auto,-306,455
+C textbook http://www2.cs.uregina.ca/~hilder/cs833/Other%20Reference%20Materials/The%20C%20Programming%20Language.pdf
 
 C textbook solutions https://clc-wiki.net/wiki/K%26R2_solutions:Chapter_1:Exercise_5
 
