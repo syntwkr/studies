@@ -14,6 +14,9 @@ CS50 notes (2018) https://cs50.harvard.edu/college/2018/fall/weeks/1/notes/
 CS50 psets (2019) https://docs.cs50.net/2019/x/psets/1/
 
 
+Security Engineering -- Ross Anderson
+https://www.cl.cam.ac.uk/~rja14/book.html
+
 Python boring stuff https://automatetheboringstuff.com/chapter1/
 
 Think Python https://read.amazon.com.au/kp/embed?linkCode=kpd&ref_=k4w_oembed_LkNFXRgcj6iS6E&asin=B018UXJ9EQ&tag=kpembed-20&amazonDeviceType=A2CLFWBIMVSE9N&from=Bookcard&preview=inline&reshareId=K4EC2SJAHTCGQ8BJRZSR&reshareChannel=system
